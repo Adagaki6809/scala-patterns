@@ -4,7 +4,10 @@ import behavioral._
 
 object Main {
   def main(args: Array[String]): Unit = {
-    simplefactory.launchDemo
-    factorymethod.launchDemo
+    simplefactory.launchDemo()
+    factorymethod.launchDemo()
+    abstractfactory.launchDemo()
+    builder.launchDemo()
+    singleton.launchDemo()
   }
 }
