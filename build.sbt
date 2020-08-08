@@ -4,4 +4,4 @@ version := "0.1"
 
 scalaVersion := "2.13.3"
 
-mainClass in (Compile, run) := Option("Main")
+mainClass in (Compile, run) := Option("ScalaPatterns")

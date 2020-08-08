@@ -1,7 +1,7 @@
 package creational
 
 package object abstractfactory {
-  def launchDemo(): Unit = {
+  def abstractFactoryDemo(): Unit = {
     val woodenFactory = new WoodenDoorFactory
 
     var door = woodenFactory.makeDoor

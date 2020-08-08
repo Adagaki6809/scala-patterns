@@ -1,7 +1,7 @@
 package creational
 
 package object singleton {
-  def launchDemo(): Unit = {
+  def singletonDemo(): Unit = {
     println("Шаблон Одиночка:")
     President.instance.doSomething
     President.instance.doSomething
