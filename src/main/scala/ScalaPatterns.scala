@@ -7,6 +7,5 @@ object ScalaPatterns {
     creationalPattersDemo()
     structuralPatternsDemo()
     behavioralPatternDemo()
-    println(System.getProperty("file.encoding"))
   }
 }
