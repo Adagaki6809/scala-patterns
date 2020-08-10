@@ -1,5 +1,0 @@
-package behavioral
-
-class ChainOfResponsibility {
-
-}
