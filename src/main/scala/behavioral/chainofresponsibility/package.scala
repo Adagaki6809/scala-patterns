@@ -1,7 +1,7 @@
 package behavioral
 
 package object chainofresponsibility {
-  def chainofresponsibilityDemo(): Unit = {
+  def chainOfResponsibilityDemo(): Unit = {
     println("Шаблон Цепочка обязанностей:")
     val bank = new Bank(100.0)
     val paypal = new PayPal(200.0)

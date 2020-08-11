@@ -5,8 +5,8 @@ package object prototype {
   def prototypeDemo(): Unit = {
     println("Шаблон Прототип:")
     val list: ArrayBuffer[Int] = ArrayBuffer[Int](1, 2)
-    var original: Sheep = new Sheep(_name="Джолли", elementsAffected=list)
-    var cloned: Sheep = new Sheep(original)
+    val original: Sheep = new Sheep(_name = "Джолли", elementsAffected = list)
+    val cloned: Sheep = new Sheep(original)
     cloned.name = "Долли"
     cloned.elementsAffected += 333
     println("Копирование через конструктор:")
@@ -19,8 +19,8 @@ package object prototype {
     cloned.elementsAffected.foreach(x => print(x + " "))
     println()
 
-    var original2: Sheep = new Sheep(_name="Марита", elementsAffected=list)
-    var cloned2: Sheep = original2.myClone
+    val original2: Sheep = new Sheep(_name = "Марита", elementsAffected = list)
+    val cloned2: Sheep = original2.myClone
     cloned2.name = "Марта"
     cloned2.elementsAffected += 333
     println("Имя: " + original2.name  + "\tКатегория: " + original2.category)

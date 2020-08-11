@@ -18,7 +18,7 @@ class Sheep extends Cloneable {
 
   def myClone: Sheep = {
     println("\nКопирование с помощью метода clone из Cloneable:")
-    var newSheep: Sheep = this.clone.asInstanceOf[Sheep]
+    val newSheep: Sheep = this.clone.asInstanceOf[Sheep]
     newSheep.elementsAffected = this.elementsAffected.clone()
     newSheep
   }

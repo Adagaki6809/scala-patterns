@@ -1,5 +1,6 @@
 package creational.builder
 
+//noinspection ScalaUnusedSymbol,ScalaUnusedSymbol,ScalaUnusedSymbol,ScalaUnusedSymbol,ScalaUnusedSymbol
 class Burger(builder: BurgerBuilder) {
   private var size: Int = builder.size
   private var cheese: Boolean = builder.cheese

@@ -1,5 +1,5 @@
 package creational.factorymethod
 
 trait Interviewer {
-  def askQuestions: Unit
+  def askQuestions(): Unit
 }
